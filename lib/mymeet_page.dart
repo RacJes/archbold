@@ -31,7 +31,7 @@ class _MyMeetPageState extends State<MyMeetPage> {
                     child: Image.asset("assets/image/logo.png"),
                   ),
                   Container(
-                    child: Text("asd"),
+                    child: Text("rafael"),
                   ),
                   ],
                 ),
