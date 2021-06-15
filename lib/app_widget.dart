@@ -2,6 +2,7 @@ import 'package:archbold/login_page.dart';
 import 'package:archbold/mymeet_page.dart';
 import 'package:flutter/material.dart';
 import 'home_page.dart';
+import 'newmeet_page.dart';
 
 // ignore: use_key_in_widget_constructors
 class Appwidget extends StatelessWidget {
@@ -12,9 +13,11 @@ class Appwidget extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.green),
         initialRoute: '/',
         routes:{
-        //'/':(context) => LoginPage(),
-          '/':(context) => MyMeetPage(),
+          '/':(context) => HomePage(),
           '/home': (context) => HomePage(),
+          '/mymeets':(context) => MyMeetPage(),
+          '/newmeets':(context) =>NewMeetPage(),
+          '/login': (context) => LoginPage(),
         /*'/cadastro' : (context) => CadastroPage(),*/
       }
     );
