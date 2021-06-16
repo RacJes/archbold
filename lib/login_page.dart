@@ -29,7 +29,7 @@ class _LoginPageState extends State<LoginPage> {
                   SizedBox(
                       width: 200,
                       height: 200,
-                      child: Image.network("https://i.imgur.com/i8k6x2D.png")),
+                      child: Image.asset("assets/images/logo.png")),
                   SizedBox(height: 10),
                   Text(
                     "Archbold's",

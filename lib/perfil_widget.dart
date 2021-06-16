@@ -5,7 +5,7 @@ import 'home_page.dart';
 
 class perfil extends StatelessWidget {
   String texto =
-      "A filosofia ocidental teve seu início na Grécia antiga. A palavra filosofia - philosophia palavra de origem grega. Philo vem de philia a ver com companheirismo, amor fraterno, amizade.Sophia vde sophos, que quer dizer sábio";
+      "A filosofia ocidental teve seu início na Grécia antiga. A palavra filosofia - philosophia palavra de origem grega. Philo vem de philia a ver com companheirismo";
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class perfil extends StatelessWidget {
                 children: [
                   Text(
                     "Nome Usuario Sobrenome",
-                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
                   ),
                 ],
               ),

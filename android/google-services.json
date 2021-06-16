@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "620854691716",
+    "project_id": "archbolds-001",
+    "storage_bucket": "archbolds-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620854691716:android:07497c822f2adff0f57fd1",
+        "android_client_info": {
+          "package_name": "com.archbold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620854691716-ca2u52l9kthsmnf9kesqhfka8pqbhpal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXA_C7RT7S1YtUpB6nfdgKjxNTVlZes34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620854691716-ca2u52l9kthsmnf9kesqhfka8pqbhpal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
